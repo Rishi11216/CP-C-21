@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+void main() {
+ int a=1;
+ printf("a is value is now %d\n", a++);
+ printf("a is value is now %d\n", a);
+ a=1;
+ printf("a is value now is %d\n",++a);
+ printf("a is value is now %d\n", a);
+ a=1;
+ printf("a is value is now %d\n", a--);
+ printf("a is value is now %d\n", a);
+ a=1;
+ printf("a is value is now %d\n",--a);
+ printf("a is value is now %d\n", a);
+}
+
+
+
+
+a is value is now 1
+a is value is now 2
+a is value now is 2
+a is value is now 2
+a is value is now 1
+a is value is now 0
+a is value is now 0
+a is value is now 0
